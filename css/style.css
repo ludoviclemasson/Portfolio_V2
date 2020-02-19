@@ -1,0 +1,149 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background:url("../image/back5.jpg");
+    background-attachment:fixed;
+    background-position:center;
+    background-size: cover; 
+}
+
+/* ------------------------------- Gestion de Menu ------------------------------- */
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 0 20px;
+    transition: 0.5s;
+}
+
+ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+    text-transform: uppercase;
+    transition: 0,5s;
+}
+
+ul:hover li a{
+    transform: scale(1.5);
+    opacity: .2;
+    filter: blur(5px);
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+}
+
+/* ------------------------------- Gestion de l'acceuil -------------------------------*/
+
+h1{
+    margin: auto;
+    color:rgba(245, 245, 245, 0.712);
+    text-align: center;
+}
+
+h3{
+    margin: auto;
+    color:rgba(245, 237, 237, 0.788);
+    text-align: center;
+}
+
+
+
+
+/* ici gestion du texte de presentation*/
+.presentation{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    border-top: 2px solid black;
+    padding: 5%;
+    margin: 5%;
+}
+
+/* Gestion des titres'*/
+.titre{
+    border-bottom: solid whitesmoke;
+    color: whitesmoke;
+}
+
+/* Gestion de cursus'*/
+.cursus{
+    color: whitesmoke;
+}
+.listeexperiance{
+    color: whitesmoke;
+    background: rgba(245, 245, 245, 0);
+    max-width: 70vh;
+    border-bottom: black;
+}
+
+
+/* ------------------------------- Gestion d'outil -------------------------------*/
+.styleoutil{
+    justify-content: center;
+    text-align: center;
+}
+.imgskill{
+    height: 120px;
+    width: 100px;
+}
+
+/* ------------------------------- Gestion de portfolio -------------------------------*/
+
+/* ici gestion de la carte prortfolio */
+
+.imgwork{
+    max-width : 100%;
+    height: auto;
+    display: block;
+}
+
+.titlework{
+    color: black;
+}
+/*------------------------------- Gestion de contact -------------------------------*/
+.stylecontact{
+    margin: auto;
+    padding: 0%;
+}
+label{
+    color: white;
+}
+
+/*------------------------------- Gestion du cv -------------------------------*/
+iframe {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.output {
+    background: #eee;
+}
+
+/* ------------------------------- Gestion de footer -------------------------------*/
+
+footer{
+    text-align: center;
+    background-color: #ffffff23;
+}
+.menubutton{
+    color: white;
+}
+  
